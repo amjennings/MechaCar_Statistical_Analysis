@@ -2,7 +2,7 @@
 
 ###### The MechaCarChallenge file represents an analysis of a dataset for 50 prototype cars that were designed to produce optimal vehicle performance. The data includes multiple vehicle metrics such as miles per gallon (mpg), vehicle length, vehicle height, vehicle weight, spoiler angle, ground clearance, and drivetrain. 
 
-## **Linear Regression to Predict MPG **
+## Linear Regression to Predict MPG 
 
 ###### A multiple linear regression was used to analyze the data and answer the following questions: 
 1. Which variables/coefficients provided a non-random amount of variance to the mpg values in the dataset?
@@ -31,13 +31,17 @@
 
 ###### T-tests were performed to determine if the mean PSI for all manufacturing lots and each individual lot was statistically different from the population mean of 1500 PSI. The p-value for all lots, Lot 1, and Lot 2 was greater than 0.05 percent, indicating there is not enough evidence to reject the null hypothesis and the means are statistically similarly. Alternatively, the p-value for Lot 3 was less than 0.05 mean it is statistically different than the mean.
 
+###### All lots
 ![Screen Shot 2022-05-11 at 10 36 10 PM](https://user-images.githubusercontent.com/98051208/167982922-a2e5c559-efa9-4953-8fbe-a251787b87ff.png)
 
+###### Lot 1
 ![Screen Shot 2022-05-11 at 10 36 29 PM](https://user-images.githubusercontent.com/98051208/167982930-e7c16499-2734-4857-a439-ea5b18fce172.png)
 
+###### Lot 2
 ![Screen Shot 2022-05-11 at 10 36 44 PM](https://user-images.githubusercontent.com/98051208/167982947-6de7e5a9-1ce3-4bd3-9da0-05a48a51b51a.png)
 
+###### Lot 3
 ![Screen Shot 2022-05-11 at 10 37 05 PM](https://user-images.githubusercontent.com/98051208/167982967-a96a8f57-112c-432f-8970-11ce40367e09.png)
 
-## ** Study Design: MechaCar vs Competition**
+## Study Design: MechaCar vs Competition
 ###### For a statistical study to compare MechaCars to competition, it would be most relevant today to include data for cost, city as well as highway fuel efficiency. A two-tailed t-test could be used to compare the means of cost of MechaCars to those of competition. The null hypothesis would be the mean cost of MechaCars was not statistically different from competition. Therefore, the alternative hypothesis would be the means were statistically different. Ideally, the null hypothesis would be true, unless it was found the mean cost of MechaCars was statistically different than the mean cost of competition but showing it was more affordable. If we could have more detailed data to include a categorical variable, such as car type (e.g., sedan, SUV, truck, etc.), we could also run an ANOVA to evaluate multiple metrics of MechaCars and competition. An ANOVA would be useful given the capacity of this test to compare multiple variables. For example, we could compare cost and fuel efficiency, for both MechaCars and competition, across the different car types. 
